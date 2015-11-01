@@ -11,5 +11,7 @@ int main(void)
     float dollars = GetFloat();
     // cast as integer in cents
     int cents = (int)round(100*dollars);
+    // print out amount in cents
+    printf("Your change is: %i cents!\n", cents);
 }
 
