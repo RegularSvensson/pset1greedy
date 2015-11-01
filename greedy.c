@@ -5,6 +5,7 @@
 
 int main(void)
 {
-    printf("I'm on the dev branch!\n");
+    // print prompt to user
+    printf("Hey! How much change is owed?\n");
 }
 
