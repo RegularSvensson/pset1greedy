@@ -13,5 +13,7 @@ int main(void)
     int cents = (int)round(100*dollars);
     // print out amount in cents
     printf("Your change is: %i cents!\n", cents);
+    
+    //implement output-coins
 }
 
