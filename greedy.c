@@ -5,6 +5,13 @@
 
 int main(void)
 {
-    printf("I'm on the dev branch!\n");
+    // print prompt to user
+    printf("Hey! How much change is owed?\n");
+    //get a floating point number
+    float dollars = GetFloat();
+    // cast as integer in cents
+    int cents = (int)round(100*dollars);
+    // print out amount in cents
+    printf("Your change is: %i cents!\n", cents);
 }
 
