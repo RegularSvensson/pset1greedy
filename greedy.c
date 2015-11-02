@@ -27,6 +27,12 @@ int main(void)
         coins++;
         cents -= 5;
     }
+    // count pennies
+    while (cents / 1 > 0)
+    {
+        coins++;
+        cents -= 1;
+    }
     
 }
 
