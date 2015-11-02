@@ -31,6 +31,10 @@ int main(void)
         cents -= 10;
     }
     
+    // count nickels
+    while (cents / 5 > 0)
+    {
+        coins++;
         cents -= 5;
     }
  
