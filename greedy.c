@@ -28,6 +28,9 @@ int main(void)
     while (cents / 10 > 0)
     {
         coins++;
+        cents -= 10;
+    }
+    
         cents -= 5;
     }
  
