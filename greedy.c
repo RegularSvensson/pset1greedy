@@ -54,6 +54,5 @@ int main(void)
     
     // print coins
     printf("%i\n", coins);
-    
 }
 
