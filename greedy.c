@@ -33,6 +33,9 @@ int main(void)
         coins++;
         cents -= 1;
     }
+ 
+    // print coins
+    printf("Number of coins back: %i\n", coins);
     
 }
 
