@@ -23,9 +23,9 @@ int main(void)
         coins++;
         cents -= 25;
     }
-
+    
     // count dimes
-    while (cents / 5 > 0)
+    while (cents / 10 > 0)
     {
         coins++;
         cents -= 5;
