@@ -5,8 +5,6 @@
 
 int main(void)
 {
-    // print prompt to user
-    printf("Hey! How much change is owed?\n");
     // declare dollars
     float dollars;
     
