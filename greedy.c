@@ -14,6 +14,8 @@ int main(void)
     // print out amount in cents
     printf("Your change is: %i cents!\n", cents);
     
-    //implement output-coins
+    // initalize coins to 0
+    int coins = 0;
+    
 }
 
