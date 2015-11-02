@@ -17,5 +17,11 @@ int main(void)
     // initalize coins to 0
     int coins = 0;
     
+    // give back quarters
+    while (cents / 25 > 0)
+    {
+        coins++;
+        cents -= 25;
+    }
 }
 
