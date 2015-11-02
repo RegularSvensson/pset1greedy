@@ -14,12 +14,12 @@ int main(void)
         // print prompt to user
         printf("Hey! How much change is owed?\n");
 
-        //get a floating point number
+        // get a floating point number
         dollars = GetFloat();
     } while (dollars < 0);
 
     // cast as integer in cents
-    int cents = (int)round(100*dollars);
+    int cents = (int) round(100 * dollars);
 
     // initalize coins to 0
     int coins = 0;
