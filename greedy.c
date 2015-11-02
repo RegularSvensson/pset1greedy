@@ -24,34 +24,27 @@ int main(void)
     // initalize coins to 0
     int coins = 0;
     
-    // count quarters
-    while (cents / 25 > 0)
+    if (cents >= 25)
     {
-        coins++;
-        cents -= 25;
+        coins += cents / 25;
+        cents %= 25;
+    }
+    if (cents >= 10)
+    {
+        coins += cents / 10;
+        cents %= 10;
+    }
+    if (cents >= 5)
+    {
+        coins += cents / 5;
+        cents %= 5;
+    }
+    if (cents >= 1)
+    {
+        coins += cents / 1;
+        cents %= 1;
     }
     
-    // count dimes
-    while (cents / 10 > 0)
-    {
-        coins++;
-        cents -= 10;
-    }
-    
-    // count nickels
-    while (cents / 5 > 0)
-    {
-        coins++;
-        cents -= 5;
-    }
- 
-    // count pennies
-    while (cents / 1 > 0)
-    {
-        coins++;
-        cents -= 1;
-    }
- 
     // print coins
     printf("%i\n", coins);
     
