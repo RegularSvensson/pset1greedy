@@ -39,7 +39,7 @@ int main(void)
     }
  
     // print coins
-    printf("Number of coins back: %i\n", coins);
+    printf("%i\n", coins);
     
 }
 
